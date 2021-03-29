@@ -9,12 +9,7 @@ def PointFixe (g,x0,epsilon,Nitermax):
         n = n+1
     return xnew, n, abs(xnew - xold)
    
-from math import cos
-
-import math
+from math import sin
 
 def g1(x):
     return (x ** 4 - 9) / 3
-
-def g2(x):
-    return 3 * cos(x) - 2
